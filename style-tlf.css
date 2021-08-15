@@ -1,0 +1,80 @@
+#container{
+    width: 100%;
+    min-width: 200px;
+}
+
+/* se muestra el icono de menu desplegable */
+
+.icon-menu{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    /* se cambia el tamaño del icono y el color */
+    font-size: 40px;
+    color: white;
+}
+
+/* redusco la altura del menu */
+#header{
+    height: 50px;
+    min-width: 200px;
+}
+
+/* se le cambia el tamaño */
+#icon{
+    height: 90px;
+    top: -18px;
+    left: -1%;
+}
+
+/* cambio de style de opciones */
+
+    /* primero se cambia la posicion del
+     menu y su anchura, tambien se le da el borde */
+#optiones{
+    margin-top: 50px;
+    height: 100vh;
+    width: 255px;
+    display: block;
+    float: right;
+    border: 5px solid white;
+    background-color: #ef6c02;
+    visibility: hidden;
+    transition:all .5s ease;
+}
+
+    /* cambio los margenes entre elementos
+    y se le da un nuevo alto */
+#optiones li{
+    display: block;
+    float: left;
+    height: 40px;
+    width: 100%;
+    margin-left: 0px;
+    /* margin-top: 40px; */
+    border-bottom: 1px solid black;
+}
+
+    /* se le dan multiples cambio
+    en el border
+    en el tipo de elemento que es */
+#optiones li a{
+    display: block;
+    float: none;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    line-height: 25px;
+    text-align: center;
+}
+
+#secion1{
+    background-repeat: no-repeat;
+    background-size: 990px 999px;
+    min-width: 250px;
+    max-height: 550px;
+}
+#secion2{
+    
+}

@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* dar un scroll suve en los botones */
+html{
+    scroll-behavior: smooth;
+}
+
+/* dar margenes al cuerpo en general */
+body{
+    width: 100%;
+}
+/* ocultar el icono y check del menu */
+#check{
+    display: none;
+}
+
+.icon-menu{
+    display: none;
+}
+
+
+/* clearfix */
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* clearfix */
+
+#container{
+    width: 100%;
+    min-width: 800px;
+    overflow: hidden;
+}
+
+/* cabecera */
+
+#header{
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    background-color: #ef6c02;
+    min-width: 800px;
+    z-index: 1000;
+}
+
+#icon{
+    position: absolute;
+    top:-30px ;
+    left: 5%;
+    height: 150px;
+}
+
+/*------------------- opciones----------------- */
+
+#optiones{
+    height: 40px;
+    display: block;
+    float: right;
+}
+
+#optiones li{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+#optiones li a{
+    color: white;
+    margin: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    line-height: 100px;
+}
+
+#optiones li:hover a{
+    transition: all 350ms;
+    text-shadow: 1px 0px 3px gray;
+    font-size: 19px;
+}
+
+
+/* ---------secciones------------- */
+
+#secion1{
+    display: block;
+    background-image: url(./fotos_pc/camaron.png);
+    background-size: 1420px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-width: 1000px;
+    height: 100vh;
+    opacity: 54;
+}
+
+/* se le da stilos a  la seccion de la imagen principal */
+#secion2{
+    display: block;
+    background-color:#e06602 ;
+    width: 100%;
+}
+/* se acomoda la imagen principal */
+#secion2 img{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* -----section3------------ */
+/* -----start the menu section ---------------*/
+
+#secion3{
+    height: 800px;
+    background-image: url(./fotos_pc/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px; 
+}
+
+/* #secion3 #menu{
+    display: block;
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+} */
+
+#secion3 p{
+    display: block;
+    font-size: 90px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    
+
+    /* font-size: 90px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+     */
+}
+
+
+#secion3 #container-menu-imagen{
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 5%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    height: 70%;
+}
+
+/* contenedores de las imagenes y p */
+#container-menu-imagen div{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#container-menu-imagen div img{
+    
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* estilos a los texts */
+#container-menu-imagen div p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 15%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+#secion3 #container-menu-imagen div .imagen_menu{
+    display: block;
+    width: 60%;
+    margin-left: 9%;
+    margin-top: 5%;
+}
+
+/* seccion de contactos */
+
+#secion4{
+    width: 100%;
+}
+
+#secion4 #contactos{
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: #ef6c02;
+}
+
+ #secion4 #contactos> p{
+    display: block;
+    margin-left: 45.4%;
+    margin-top: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+/* se colocan en el centro los icono de enlaces */
+#secion4 #contactos .icon-facebook{
+    margin-left: 45%
+}
+
+#secion4 #contactos a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+} 
+
+#secion4 #contactos a:hover{
+    cursor: pointer;
+}

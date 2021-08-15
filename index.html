@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-pc.css">
+    <!-- se importan los iconos -->
+    <link rel="stylesheet" href="./fonts/style.css">
+    <!-- css para movil -->
+    <link rel="stylesheet" media="(max-width: 800px)" href="style-tlf.css">
+
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- creo la cabecera con sus opciones -->
+        <header id="header">
+            <ul id="optiones">
+                <li><a href="#secion1">INICIO</a></li>
+                <li><a href="#secion3">MENU</a></li>
+                <li><a href="#secion4">CONTACTOS</a></li>
+                <li><a target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=+527414114133&text=Hola%20%C2%BFesta%20es%20la%20caba%C3%B1a%20de%20benyo%3F">SUGERENCIA</a></li>
+            </ul>
+            <form id="check-menu">
+                <label for="check" id="icono-menu" class="icon-menu"></label>
+                <input type="checkbox" id="check">
+            </form>
+
+            <img src="./60024bcb-4eb9-4ca8-ac18-65612591da9d.png" alt="icono_benyo" id="icon">
+        </header>
+
+        <!-- primera seccion// inicio -->
+        <!-- se coloca de backgroung camarons -->
+        <section id="secion1">
+        </section>
+
+        <!-- --------image-main------------ -->
+        <section id="secion2">
+            <img id="mainImage" src="main.png" alt="">
+            <img id="sliderCarousel" alt="">
+        </section>
+
+        <section id="secion3">
+            
+                <p>MENÚ</p>
+            
+            <!-- contenedor de las fotos del menu -->
+            <div id="container-menu-imagen">
+
+                <div>
+                    <img src="./foto-tlf/alistas.png" alt="" class="imagen_menu">
+                    <p>BOTANAS</p>
+                </div>
+
+                <div>
+                    <img src="./foto-tlf/camaroncitos.png" alt="" class="imagen_menu">
+                    <p>MARISCOS</p>
+                </div>
+
+                <div>
+                    <img src="./foto-tlf/pechuga_rellenas.png" alt="" class="imagen_menu">
+                    <p>COMIDAS</p>
+                </div>
+
+                <div>
+                    <img src="./foto-tlf/pollo.png" alt="" class="imagen_menu">
+                    <P>ESPECIALIDADES</P>
+                </div>
+
+                <!-- <div class="clearfix1"></div> -->
+            </div>
+
+        </section>
+
+        <section id="secion4">
+            <!-- se hace una franga para los contactos -->
+            <div id="contactos">
+                <p>contactos y mas</p>
+                <a target="_blank" rel="noopener" class="icon-facebook" href="https://www.facebook.com/La-Cabaña-de-BENYO-1527970980795284/"></a>
+                <a target="_blank" rel="noopener" class="icon-instagram" href="https://instagram.com/rest_lacabanade_benyo?utm_medium=copy_link"></a>
+                <a target="_blank" rel="noopener" class="icon-phone" href="tel:+527414114133"></a>
+                <a target="_blank" rel="noopener" class="icon-location" href="https://goo.gl/maps/jMY1nk22bMWSnkyi6"></a>
+
+            </div>
+            <!-- se incorpora el mapa -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.754600277912!2d-98.42600368547929!3d16.689159126959268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c8344b8a3ff503%3A0x8b32ab9493c097dd!2sRestauran%20Bar%20La%20Caba%C3%B1a%20&#39;De%20Benyo&#39;!5e0!3m2!1ses-419!2smx!4v1625509143064!5m2!1ses-419!2smx"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+    </div>
+
+    <script src="scrpt.js"></script>
+</body>
+
+</html>
